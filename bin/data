@@ -3,10 +3,8 @@
 require('dotenv-safe').load();
 
 var Happner = require('happner');
-var config = require('../config/data');
-var server = require('../lib/data');
+var Config = require('../config/data');
+var Server = require('../lib/data').Server;
+var Exit = require('../lib/exit');
 
-Happner.create(config).then(server).catch(function(error) {
-  console.error(error);
-  process.exit(1);
-});
+Happner.create(Config).then(Server).catch(Exit);

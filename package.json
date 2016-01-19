@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nomilous/examples-happner#readme",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "dotenv": "^1.2.0",
     "dotenv-safe": "^2.2.0",
     "happner": "^1.5.3"
