@@ -10,12 +10,12 @@ module.exports = {
   },
   modules: {
     /* shortcut: alternative to having node_modules/data */
-    data: {
+    'data': {
       instance: require('../lib/components/data')
     }
   },
   components: {
-    www: {
+    'www': {
       web: {
         routes: {
           /* 
@@ -26,7 +26,7 @@ module.exports = {
         }
       }
     },
-    data: {
+    'data': {
 
     }
   }
