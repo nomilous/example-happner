@@ -1,0 +1,24 @@
+{
+  "name": "examples-happner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomilous/examples-happner.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomilous/examples-happner/issues"
+  },
+  "homepage": "https://github.com/nomilous/examples-happner#readme",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "dotenv-safe": "^2.2.0",
+    "happner": "^1.5.3"
+  }
+}
